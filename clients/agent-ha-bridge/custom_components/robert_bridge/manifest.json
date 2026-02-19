@@ -1,0 +1,13 @@
+{
+    "domain": "robert_bridge",
+    "name": "Robert Bridge",
+    "version": "0.1.0",
+    "documentation": "https://github.com/maker-norr/agent-robert",
+    "dependencies": [],
+    "codeowners": [
+        "@maker-norr"
+    ],
+    "requirements": [
+        "httpx>=0.25.0"
+    ]
+}
