@@ -1,0 +1,23 @@
+{
+    "provider": "openrouter",
+    "model": "google/gemini-2.0-flash-001",
+    "restrictToWorkspace": true,
+    "tools": {
+        "read_file": {
+            "enabled": true
+        },
+        "fileWrite": {
+            "enabled": false
+        },
+        "shell": {
+            "enabled": false,
+            "allowlist": [
+                "ls",
+                "dir",
+                "cat",
+                "echo",
+                "pwd"
+            ]
+        }
+    }
+}
